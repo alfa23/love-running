@@ -34,6 +34,10 @@ h2 {
     letter-spacing: 4px;
 }
 
+#menu, #logo {
+    line-height: 75px;
+}
+
 div ul {
     float: right;
 }
@@ -42,4 +46,17 @@ div ul {
     display: inline;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
